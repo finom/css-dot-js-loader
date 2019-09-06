@@ -24,9 +24,10 @@ const extract = (code, filename = 'unknown.css.js') => {
   vmCache[filename] = { cachedCode: code, cachedScript: script };
 
   // support for esmodule exports
+  // eslint-disable-next-line  no-underscore-dangle
   return result.__esModule ? result.css || result.default : result.css || result;
 };
 
-module.exports = function (source, { sources }) {
+module.exports = function cssDotJs(source, { sources }) {
   return extract(source, sources[0]);
 };
