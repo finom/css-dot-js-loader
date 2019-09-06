@@ -1,0 +1,31 @@
+{
+  "name": "css-dot-js-loader",
+  "version": "0.0.1",
+  "description": "This Webpack loader allows to generate static CSS code via JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "patch": "npm version patch && npm publish && git push && git push --tags",
+    "minor": "npm version minor && npm publish && git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finom/css-dot-js-loader.git"
+  },
+  "author": "Andrey Gubanov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/finom/css-dot-js-loader/issues"
+  },
+  "homepage": "https://github.com/finom/css-dot-js-loader#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "dependencies": {
+    "vm2": "^3.8.3"
+  }
+}
