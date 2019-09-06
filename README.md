@@ -1,4 +1,4 @@
-# css-dot-js-loader
+# css-dot-js-loader [![npm version](https://badge.fury.io/js/css-dot-js-loader.svg)](https://badge.fury.io/js/css-dot-js-loader)
 
 This Webpack loader allows to generate static CSS code via JavaScript. It's created for cases when you want to get all the power of JavaScript (loops, regular variables, functions etc) and use it to generate your CSS file. The loader doesn't replace CSS preprocessors (such as Sass or PostCSS) but helps you if you want to avoid weird and rigid syntax which is made to bring programming features into CSS (personally me don't like Sass control directives at all). Surely, you can use the loader without any other pre-processors and generate pure CSS code.
 
