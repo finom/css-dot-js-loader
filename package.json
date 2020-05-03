@@ -1,6 +1,6 @@
 {
   "name": "css-dot-js-loader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This Webpack loader allows to generate static CSS code via JavaScript",
   "main": "index.js",
   "scripts": {
