@@ -20,13 +20,14 @@
   },
   "homepage": "https://github.com/finom/css-dot-js-loader#readme",
   "devDependencies": {
-    "babel-eslint": "^10.0.3",
-    "eslint": "6.1.0",
-    "eslint-config-airbnb-base": "^14.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-babel": "^5.3.0",
-    "eslint-plugin-import": "^2.18.2"
+    "eslint-plugin-import": "^2.20.2",
+    "npm-check-updates": "^4.1.2"
   },
   "dependencies": {
-    "vm2": "^3.8.3"
+    "vm2": "^3.9.2"
   }
 }
